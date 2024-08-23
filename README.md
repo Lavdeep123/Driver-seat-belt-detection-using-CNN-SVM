@@ -17,3 +17,15 @@ The dataset used in this project includes images categorized into two classes: "
 Training Set: 70% of the dataset
 Validation Set: 20% of the dataset
 Test Set: 10% of the dataset
+# Model Architecture
+## The CNN-SVM model architecture is as follows:
+Convolutional Layers: Two convolutional layers with ReLU activation and max-pooling for feature extraction.
+Flattening: Converts the pooled feature maps into a single vector.
+Dropout Layers: Prevents overfitting by randomly setting input units to 0.
+Fully Connected Layer: Dense layer with ReLU activation.
+Output Layer: A Dense layer with a linear activation function for binary classification.
+
+# Training
+The model is compiled using the Adam optimizer and hinge loss function. It is trained for 20 epochs, and the performance is evaluated on the validation and test sets.
+# Evaluation
+The model's performance is visualized using loss and accuracy plots. Additionally, a confusion matrix and classification report are generated to evaluate precision, recall, and F1-score.
