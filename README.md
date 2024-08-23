@@ -29,3 +29,5 @@ Output Layer: A Dense layer with a linear activation function for binary classif
 The model is compiled using the Adam optimizer and hinge loss function. It is trained for 20 epochs, and the performance is evaluated on the validation and test sets.
 # Evaluation
 The model's performance is visualized using loss and accuracy plots. Additionally, a confusion matrix and classification report are generated to evaluate precision, recall, and F1-score.
+# Link of conference paper published on this project
+https://ieeexplore.ieee.org/document/10545852
